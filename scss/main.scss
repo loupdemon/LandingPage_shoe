@@ -1,0 +1,86 @@
+@import "./custom_bootstrap.scss";
+@import "./custom_variables.scss";
+@import "./custom_carousel.scss";
+
+
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+#header a {
+    color: $gray-900;
+}
+
+#main{
+    margin-top: 2em;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    color: $white;
+}
+
+#main button{
+    z-index: 5;
+}
+
+#main p{
+    color: $dark;
+    z-index: 5;
+}
+h1{
+    color: $black;
+    z-index: 5;
+}
+
+h5{
+    color: $dark;
+}
+
+#main_div_two p{
+    color: $dark;
+}
+
+
+.custom-shape-divider-top-1622876451 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1622876451 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1622876451 .shape-fill {
+    fill: #F2F5FC;
+}
+
+.custom-shape-divider-bottom-1622876150 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1622876150 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1622876150 .shape-fill {
+    fill: #f9fafe;
+}
